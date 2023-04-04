@@ -1,7 +1,20 @@
 {
   "version": "31.0.0",
   "files": {
-    "453fdc61fb90f9bf30fa5369853c0dc0e3906ead58d70cb8b44b55b894afcacd": {
+    "6cc56922cc61383147d9901eefa4e0903a8f54bde8be085679e513f1589d9272": {
+      "source": {
+        "path": "asset.6cc56922cc61383147d9901eefa4e0903a8f54bde8be085679e513f1589d9272",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "6cc56922cc61383147d9901eefa4e0903a8f54bde8be085679e513f1589d9272.zip",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    },
+    "e3975c11cbed83782c70a34ace6b3a4bb6663d914000a61ae9af48295f205e78": {
       "source": {
         "path": "Space-finder.template.json",
         "packaging": "file"
@@ -9,7 +22,7 @@
       "destinations": {
         "current_account-current_region": {
           "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
-          "objectKey": "453fdc61fb90f9bf30fa5369853c0dc0e3906ead58d70cb8b44b55b894afcacd.json",
+          "objectKey": "e3975c11cbed83782c70a34ace6b3a4bb6663d914000a61ae9af48295f205e78.json",
           "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
         }
       }
